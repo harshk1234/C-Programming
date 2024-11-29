@@ -73,8 +73,9 @@ int main() {
 
   ## 3. Control structure
   <img width="322" alt="image" src="https://github.com/user-attachments/assets/f376df9c-7ed4-492e-be60-7b19978f9edd">
-- 1. if Statement
-
+  
+  ### if Statement
+- IF statment is true:
 ```
 #include <iostream>
 using namespace std;
@@ -92,6 +93,9 @@ int main() {
 
 
 ```
+
+- IF statment is False:
+
 #include <iostream>
 using namespace std;
 
