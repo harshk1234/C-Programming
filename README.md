@@ -17,3 +17,27 @@ int main() {
 
 <img width="401" alt="image" src="https://github.com/user-attachments/assets/e191864e-b7dd-48c4-9d20-004dea8cad4e">
 
+## 1. Global and local variable
+
+```
+#include <iostream>
+using namespace std;
+
+// Global variable
+int globalVar = 10;
+
+
+int main() {
+    // Local variable
+    int globalVar = 20;
+
+    cout << "Global Variable: " << globalVar << endl;
+    cout << "Local Variable: " << ::globalVar << endl; // it will write original globale variable value
+
+
+    cout << "Global variable after modification in main: " << globalVar << endl;
+
+    return 0;
+}
+```
+
