@@ -70,3 +70,36 @@ int main() {
 
 - Reference variables provide an alias to an existing variable.
 - Modifying a reference variable changes the original variable since both refer to the same memory location.
+
+  ## 3. Control structure
+  <img width="322" alt="image" src="https://github.com/user-attachments/assets/f376df9c-7ed4-492e-be60-7b19978f9edd">
+- 1. if Statement
+
+```
+#include <iostream>
+using namespace std;
+
+int main() {
+    int x = 10;
+        if (x > 5) {
+                    cout << "x is greater than 5" << endl;
+                }
+        return 0;
+    }
+```
+<img width="404" alt="image" src="https://github.com/user-attachments/assets/45658ff1-04ed-4dc4-bcf5-af4fb6e56625">
+```
+#include <iostream>
+using namespace std;
+
+int main() {
+    int x = 1;
+        if (x > 5) {
+                    cout << "x is greater than 5" << endl;
+                }
+        return 0;
+    }
+```
+<img width="304" alt="image" src="https://github.com/user-attachments/assets/9d49adce-f567-4fe0-a2db-f53be3dd5905">
+
+
