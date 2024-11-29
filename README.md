@@ -42,7 +42,7 @@ int main() {
 - The program demonstrates variable shadowing, where a local variable hides a global variable of the same name within its scope.
 - The :: (scope resolution operator) is used to access the global variable when a local variable of the same name exists.
 
-## Refrance variable
+## 3. Refrance variable
 ```
 #include <iostream>
 using namespace std;
