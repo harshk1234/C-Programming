@@ -41,3 +41,32 @@ int main() {
 
 - The program demonstrates variable shadowing, where a local variable hides a global variable of the same name within its scope.
 - The :: (scope resolution operator) is used to access the global variable when a local variable of the same name exists.
+
+## Refrance variable
+```
+#include <iostream>
+using namespace std;
+
+int main() {
+    int original = 10;
+
+    // Reference variable
+    int& ref = original;
+
+    cout << "Original value: " << original << endl;
+    cout << "Reference value: " << ref << endl;
+
+    // Modify the value using the reference
+    ref = 20;
+
+    cout << "Original value after modifying reference: " << original << endl;
+    cout << "Reference value after modification: " << ref << endl;
+
+    return 0;
+}
+
+```
+<img width="396" alt="image" src="https://github.com/user-attachments/assets/89118bfd-e61a-4362-a911-1d57e7745e22">
+
+- Reference variables provide an alias to an existing variable.
+- Modifying a reference variable changes the original variable since both refer to the same memory location.
