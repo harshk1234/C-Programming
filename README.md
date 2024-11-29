@@ -109,4 +109,32 @@ int main() {
 ```
 <img width="304" alt="image" src="https://github.com/user-attachments/assets/9d49adce-f567-4fe0-a2db-f53be3dd5905">
 
+### if-else statment
+
+```
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int number = 0;
+
+    if (number > 0) {
+        cout << "The number is positive." << endl;
+    } else if (number < 0) {
+        cout << "The number is negative." << endl;
+    } else {
+        cout << "The number is zero." << endl;
+    }
+
+    return 0;
+}
+
+```
+
+<img width="313" alt="image" src="https://github.com/user-attachments/assets/b4c64600-0072-43a1-92da-42f2d7837229">
+
+
+
+
 
