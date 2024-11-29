@@ -17,7 +17,7 @@ int main() {
 
 <img width="401" alt="image" src="https://github.com/user-attachments/assets/e191864e-b7dd-48c4-9d20-004dea8cad4e">
 
-## 1. Global and local variable
+## 2. Global and local variable
 
 ```
 #include <iostream>
