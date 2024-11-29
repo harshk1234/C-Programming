@@ -34,10 +34,10 @@ int main() {
     cout << "Global Variable: " << globalVar << endl;
     cout << "Local Variable: " << ::globalVar << endl; // it will write original globale variable value
 
-
-    cout << "Global variable after modification in main: " << globalVar << endl;
-
     return 0;
 }
 ```
+<img width="284" alt="image" src="https://github.com/user-attachments/assets/0a994de5-20d4-47b7-82f7-0402e87c6126">
 
+- The program demonstrates variable shadowing, where a local variable hides a global variable of the same name within its scope.
+- The :: (scope resolution operator) is used to access the global variable when a local variable of the same name exists.
