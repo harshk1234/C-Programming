@@ -92,10 +92,10 @@ int main() {
 <img width="404" alt="image" src="https://github.com/user-attachments/assets/45658ff1-04ed-4dc4-bcf5-af4fb6e56625">
 
 
-```
-
 - IF statment is False:
 
+
+```
 #include <iostream>
 using namespace std;
 
