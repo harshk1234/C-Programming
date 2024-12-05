@@ -1,0 +1,30 @@
+#Variable
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a;
+    a = 10;
+    int b = 20;
+    char a123 = 'a';
+    float c=5.4;
+    int _c = 30;
+
+    cout << a << endl;
+    cout << b << endl;
+    cout << a123 << endl;
+    cout << c << endl;
+    cout << _c << endl;
+
+
+    return 0;
+}
+
+ANS:
+10
+20
+a
+5.4
+30
